@@ -1,6 +1,8 @@
 
 /* color palette:
-
+beige #f5f4f0
+green #516a4c
+pink #ff2851
 */
 
 /* font-family: 'Roboto', sans-serif; */
@@ -22,12 +24,298 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 body {
 	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+main {
+	background-color: #f5f4f0;
 }
 
 ul li {
+	display: inline;
 	list-style-type: none;
+	color: #516a4c;
+	font-size: 0.85rem;
+	letter-spacing: 0.025em;
 }
 
 button {
 	cursor: pointer;
+	background: transparent;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	letter-spacing: 0.025em;
 }
+
+header {
+	padding-bottom: 10px;
+}
+
+header figure {
+	padding-top: 10px;
+}
+
+header img {
+	max-width: 200px;
+}
+
+header div {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#line {
+	display: none;
+}
+
+nav {
+	margin-top: 10px;
+}
+
+nav button {
+	margin: 1%;
+}
+
+.header-top, .bottom-section {
+	background-color: #f5f4f0;
+	font-weight: 400;
+}
+
+.header-top ul li {
+	padding: 1%;
+	display: block
+}
+
+.header-bottom {
+	margin: 2% 0;
+}
+
+h1, h2, h3, p {
+	letter-spacing: 0.025em;
+}
+
+h1 {
+	display: none;
+	color: #ffffff; 
+}
+
+h2 {
+	font-size: 1rem;
+	font-weight: 500;
+	padding: 10% 0;
+}
+
+h2, h3, p {
+	color: #516a4c;
+}
+
+p {
+	font-size: 0.9rem;
+	font-weight: 300;
+}
+
+.nav-button1 {
+	padding: 9px 10px;
+	font-weight: 500;
+	border: 2.5px solid #516a4c; /*green*/
+	color: #516a4c;
+}
+
+.nav-button2 {
+	padding: 9px 18px;
+	font-weight: 500;
+	border: 2.5px solid #516a4c; /*green*/
+	color: #516a4c;
+}
+
+.top-section {
+	display: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.white-button {
+	display: none;
+	padding: 8px 20px;
+	font-size: 0.8rem;
+	font-weight: 500;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	margin-top: 10px;
+}
+
+.main-button1 {
+	padding: 8px 20px;
+	font-size: 0.8rem;
+	font-weight: 500;
+	border: 2.5px solid #ff2851; /*pink*/
+	color: #ff2851;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.main-button2 {
+	padding: 8px 15px;
+	font-size: 0.8rem;
+	font-weight: 500;
+	border: 2.5px solid #ff2851; /*pink*/
+	color: #ff2851;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.middle-section {
+	padding: 0 10% 20px 10%;
+	background-color: #ffffff;
+}
+
+.middle-section p {
+	line-height: 1.3rem;
+}
+
+.bottom-section img {
+	width: 70%;
+	margin-bottom: 5px;
+}
+
+footer {
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 5% 10%;
+}
+
+footer h3 {
+	font-size: 0.85rem;
+	font-weight: 400;
+}
+
+footer ul li {
+	display: block;
+	font-size: 0.85rem;
+	font-weight: 300;
+	padding: 1%;
+}
+
+
+
+@media (min-width: 450px) {
+	#line {
+		display: inline;
+	}
+	.header-top ul li {
+		display: inline;
+		padding: 1.5%;
+	}
+}
+
+@media (min-width: 600px) {
+	.bottom-section img {
+		width: 55%;
+	}
+	.header-bottom {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	header figure {
+		width: 50%;
+	}
+	nav {
+		width: 50%;
+	}
+
+}
+
+@media (min-width: 800px) {
+	header {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	header img {
+		max-width: 180px;
+	}
+	.header-top {
+		width: 100%;
+		text-align: right;
+		padding-right: 50px;
+	}
+	.header-top ul li {
+		display: inline;
+		padding: 1%;
+	}
+	.header-bottom {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	header figure {
+		width: 50%;
+		margin-right: 10%;
+	}
+	nav {
+		width: 30%;
+		margin-right: 10%;
+	}
+	.top-section {
+		display: block;
+	}
+	h1 {
+		display: block;
+		font-size: 1.8rem;
+		font-weight: 300;
+		padding: 15px 0;
+	}
+	h2 {
+		font-size: 1.1rem;
+		padding: 30px 0;
+	}
+	.white-button {
+		display: inline;
+	}
+	.middle-section {
+		padding: 5% 5%;
+	}
+	.middle-section p {
+		margin: 0 20%;
+		letter-spacing: 0.05em;
+		line-height: 1.2rem;
+	}
+	.bottom-section {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		padding: 30px 0;
+	}
+	.bottom-section h2 {
+		width: 100%;
+	}
+	.bottom-section img {
+		width: 80%;
+		margin-top: 20px;
+	}
+	.main-button2 {
+		margin-bottom: 50px;
+	}
+	footer h3 {
+		padding: 3px 0;
+	}
+	footer ul li {
+		font-size: 0.85rem;
+		font-weight: 300;
+		padding: 2px 0;
+	}
+}
+
+

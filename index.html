@@ -13,7 +13,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
 
 
 		<!--[if lt IE 9]>
@@ -25,19 +25,24 @@
 	<body>
 
 		<header>
-			<ul>
-				<li>555 Main St, Central Springs, TN</li>
-				<li>(455) 494-8778</li>
-			</ul>
+			<div class="header-top">
+				<ul>
+					<li>555 Main St, Central Springs, TN</li>
+					<li id="line">|</li>
+					<li>(455) 494-8778</li>
+				</ul>
+			</div>
 
-			<figure>
-				<img src="img/central-springs-nursery-logo.png" alt="Central Springs Nursery Logo" title="Central Springs Nursery Logo" />
-			</figure>
+			<div class="header-bottom">
+				<figure>
+					<img src="img/central-springs-nursery-logo.png" alt="Central Springs Nursery Logo" title="Central Springs Nursery Logo" />
+				</figure>
 
-			<nav>
-				<button>VIEW PLANTS</button>
-				<button>ABOUT US</button>
-			</nav>
+				<nav>
+					<button class="nav-button1">VIEW PLANTS</button>
+					<button class="nav-button2">ABOUT US</button>
+				</nav>
+			</div>
 		</header>
 
 		<main>
@@ -46,7 +51,7 @@
 					<img src="img/plants-bg.png" alt="plants-background" title="plants-background" style="width:100%;" />
 					<div class="centered">
 						<h1>Central Springs Plant Nursery</h1>
-						<button>VIEW PLANTS</button>
+						<button class="white-button">VIEW PLANTS</button>
 					</div>
 				</div>
 			</section>
@@ -54,11 +59,12 @@
 			<section class="middle-section">
 				<h2>HIGHEST QUALITY GUARANTEED</h2>
 				<p>We take pride in providing the highest quality care for all of our plants. In fact, we care for our plants so much, we can guarantee they will take the first season, first try, or money back!</p>
-				<button>ABOUT US</button>
+				<button class="main-button1">ABOUT US</button>
 			</section>
 			<section class="bottom-section">
 				<h2>IN SEASON NOW</h2>
 				<!-- IMAGE GRID HERE -->
+
 					<div>
 						<img src="img/seasonal-plant-1.png" alt="seasonal plant 1" title="seasonal plant 1" />
 					</div>
@@ -68,13 +74,16 @@
 					<div>
 						<img src="img/seasonal-plant-3.png" alt="seasonal plant 3" title="seasonal plant 3" />
 					</div>
-				<button>VIEW PLANTS</button>
 			</section>
+			<button class="main-button2">VIEW PLANTS</button>
 		</main>
 
 		<footer>
 			<h3>Central Springs Plant Nursery</h3>
-			<p>555 Main St, Central S</p>
+			<ul>
+				<li>555 Main St, Central Springs, TN</li>
+				<li>(455) 494-8778</li>
+			</ul>
 		</footer>
 
 	</body>
