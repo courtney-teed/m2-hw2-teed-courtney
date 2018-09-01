@@ -73,7 +73,7 @@ nav {
 
 nav button {
 	margin: 1%;
-	background-color: #f5f4f0;
+	background-color: #f5f4f0; /*beige*/
 }
 
 .header-top, .bottom-section {
@@ -165,8 +165,8 @@ p {
 	padding: 8px 20px;
 	font-size: 0.8rem;
 	font-weight: 500;
-	border: 2.5px solid #ff2851; /*pink*/
-	color: #ff2851;
+	border: 2.5px solid #516a4c; /*green*/
+	color: #516a4c;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -175,8 +175,8 @@ p {
 	padding: 8px 15px;
 	font-size: 0.8rem;
 	font-weight: 500;
-	border: 2.5px solid #ff2851; /*pink*/
-	color: #ff2851;
+	border: 2.5px solid #516a4c; /*green*/
+	color: #516a4c;
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
