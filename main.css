@@ -105,12 +105,13 @@ h1 {
 }
 
 h2 {
+	color: #ff2851;
 	font-size: 1rem;
 	font-weight: 500;
 	padding: 10% 0;
 }
 
-h2, h3, p {
+h3, p {
 	color: #516a4c;
 }
 
